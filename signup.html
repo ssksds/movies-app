@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="./styles/signup.css" />
+  </head>
+
+  <body>
+    <div id="navbar">
+      <div>
+        <a href="./index.html">Home</a>
+      </div>
+      <div>
+        <a href="./signup.html">Sign Up</a>
+      </div>
+      <div>
+        <a href="./login.html">Login</a>
+      </div>
+    </div>
+
+    <div id="signup-form-div">
+      <h1>SignUp</h1>
+      <form id="signUp">
+        <!--Write form input elements here-->
+
+        <label for="user">User Name</label> <br />
+        <input type="text" id="user" placeholder="Enter username" required />
+        <br />
+
+        <label for="number">Contact Number</label> <br />
+        <input type="number" id="number" placeholder="Enter Number" required />
+        <br />
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <br />
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          required
+        />
+        <br />
+        <input class="btn" type="submit" value="Sign Up" />
+      </form>
+      <p>Already have an account? <a href="./login.html">Log in</a></p>
+    </div>
+  </body>
+</html>
+<script src="./scripts/signup.js"></script>

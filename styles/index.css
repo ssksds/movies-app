@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+
+body{
+  background-color: black;
+}
+
+*{
+  font-family: Lato;
+}
+
+
+#navbar {
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid black; */
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    /* margin-left: 70px; */
+  }
+  
+  #navbar > div {
+    height: 90%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #navbar > div > a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  #slideshow {
+    /* border: 1px solid black; */
+    display: flex;
+    height: 500px;
+    width: 90%;
+    margin-top: 55px;
+    margin-left: 75px;
+    justify-content: center;
+    align-items: center;
+  }
+  #slideshow > img {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    height: 500px;
+    width: 1500px;
+    /* object-fit: contain; */
+    
+  }
+  #sortBtn{
+    margin-left: 1315px;
+    margin-top: 20px;
+    height: 30px;
+    width: 110px;
+  }
+  
+  #movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+  }
+  
+  #movies > div {
+    box-shadow: rgba(172, 172, 187, 0.507) 0px 50px 100px -20px, rgba(194, 191, 191, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    text-align: center;
+    
+    background-color: white;
+  }
+  
+  #movies > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #movies > div > div > h2 {
+    margin-right: 10px;
+  }
+  
+  #movies > div > div > p {
+    color: red;
+  }
+  
+  #movies > div > img {
+    height: 250px;
+    width: 90%;
+    object-fit: contain;
+  }
+  
